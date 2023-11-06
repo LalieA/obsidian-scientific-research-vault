@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "type": "graph",
+      "ctime": 1698682177612,
+      "title": "Knowledge Graph",
+      "options": {
+        "collapse-filter": true,
+        "search": "[\"category\": source-note] OR [\"category\": notion-note]",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": true,
+        "showOrphans": false,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "[\"category\":source-note]",
+            "color": {
+              "a": 1,
+              "rgb": 3391487
+            }
+          },
+          {
+            "query": "[\"category\":notion-note]",
+            "color": {
+              "a": 1,
+              "rgb": 16746065
+            }
+          },
+          {
+            "query": "[\"category\":thinking-note]",
+            "color": {
+              "a": 1,
+              "rgb": 11657298
+            }
+          },
+          {
+            "query": "[\"category\":outline-note",
+            "color": {
+              "a": 1,
+              "rgb": 14488146
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": false,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 1,
+        "collapse-forces": true,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 250,
+        "scale": 3.2942214180062614,
+        "close": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "1. Source Notes",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Create Source Note",
+      "outputPathTemplate": "1. Source Notes/@{{citekey}}.md",
+      "imageOutputPathTemplate": "_media/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "_templates/zotero-source-note.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "pdfExportImageTesseractPath": "/etc/profiles/per-user/lalie/bin/tesseract",
+  "pdfExportImageOCR": true
+}

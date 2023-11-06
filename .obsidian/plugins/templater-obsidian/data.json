@@ -1,0 +1,47 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "_templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "1. Source Notes",
+      "template": "_templates/source-note.md"
+    },
+    {
+      "folder": "2. Notions",
+      "template": "_templates/notion-note.md"
+    },
+    {
+      "folder": "3. Thoughts",
+      "template": "_templates/thinking-note.md"
+    },
+    {
+      "folder": "4. Outlines",
+      "template": "_templates/outline-note.md"
+    },
+    {
+      "folder": "Meeting Notes",
+      "template": "_templates/meeting-note.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}
